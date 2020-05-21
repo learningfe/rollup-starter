@@ -1,0 +1,19 @@
+{
+  "name": "rollup-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rollup -cw",
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^4.1.2",
+    "rollup": "^2.10.5",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.3"
+  }
+}
